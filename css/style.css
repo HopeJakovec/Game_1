@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background: #FF69B4;
+}
+
+.road {
+    width: 400px;
+    height: 100vh;
+    background: #696969;
+}
+
+.car {
+    position: absolute;
+    width: 80px;
+    bottom: 0;
+}
+
+.trees {
+    position: absolute;
+    width: 28vh;
+}
+
+.tree1 {
+    transform: translate(-250px, -10vh);
+}
+
+.tree2 {
+    transform: translate(-250px, 30vh);
+}
+
+.tree3 {
+    transform: translate(-250px, 70vh);
+}
+
+.tree4 {
+    transform: translate(250px, -10vh);
+}
+
+.tree5 {
+    transform: translate(250px, 30vh);
+}
+
+.tree6 {
+    transform: translate(250px, 70vh);
+}
+
+.arrows {
+    position: absolute;
+    width: 100px;
+}
+
+.danger {
+    position: absolute;
+    width: 100px;
+}
+
+.coin {
+    position: absolute;
+    width: 50px;
+}
+
+.pause-btn {
+    background: transparent;
+    border: none;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+
+.pause-btn:hover {
+    transform: scale(1.1);
+}
+
+.pause-btn img {
+    width: 50px;
+}
+
+.pause-btn .play {
+    display: none;
+}
