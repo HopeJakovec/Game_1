@@ -14,7 +14,7 @@
 
     function startGame() {
         treesAnimation();
-
+        
         animationId = requestAnimationFrame(startGame);
     };
 
